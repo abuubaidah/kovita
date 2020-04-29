@@ -1,0 +1,937 @@
+/*col-lg*/
+/*laptop or medium pc*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* header section */
+    .header .navbar .navbar-nav .nav-item {
+        padding: 25px 10px;
+    }
+    /* banner section */
+    .banner .part-img img {
+        width: 100%;
+    }
+    .about .part-img img {
+        width: 100%;
+    }
+    /* about section */
+    .about .part-txt .single-box {
+        padding: 30px 25px;
+    }
+    /* spread section */
+    .spread .single-box .part-txt h3 {
+        font-size: 22px;
+    }
+    /* self protect section */
+    .self-protect .part-txt .single-box {
+        padding: 30px 20px;
+    }
+    .self-protect .part-txt .single-box .txt h3 {
+        font-size: 22px;
+    }
+    .self-protect .part-img img {
+        width: 100%;
+    }
+    /* symptoms section */
+    .symptoms .symptom-box .owl-nav {
+        display: none;
+    }
+    /* hand-wash section */
+    .hand-wash .boxes .single-box {
+        padding: 20px 15px;
+    }
+    .hand-wash .boxes .single-box .part-txt h3 {
+        font-size: 18px;
+    }
+    /* team section */
+    .team .single-box .part-txt .social .def-btn {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    /* faq section */
+    .faq .accordion .card .card-header h2 {
+        padding: 15px;
+    }
+}
+
+/*as col-md*/
+/*tablet device*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* global style */
+    .heading {
+        margin-bottom: 50px;
+    }
+    .heading p {
+        font-size: 14px;
+    }
+    .heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    /* header section */
+    .header .logo img {
+        width: 100px;
+    }
+    .header button {
+        float: right;
+        outline: none;
+        padding: 20px 0;
+    }
+    .header .navbar .navbar-nav .nav-item {
+        padding: 5px 10px;
+    }
+    .header .navbar .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
+    .header .navbar .def-btn {
+        margin: 20px 10px;
+    }
+    /* banner section */
+    .banner {
+        padding-top: 62px;
+    }
+    .banner .banner-txt {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .banner .banner-txt h4 {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .banner .banner-txt h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner .banner-txt p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner .part-img {
+        width: 420px;
+        margin: 0 auto 100px auto;
+    }
+    .banner .part-img img {
+        width: 100%;
+    }
+    /* dashboard section */
+    .dashboard .box {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .dashboard .box .single-box {
+        margin-bottom: 40px;
+    }
+    .dashboard .box .single-box h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    /* about section */
+    .about .part-img {
+        width: 320px;
+        margin: 0 auto 30px auto;
+    }
+    .about .part-img img {
+        width: 100%;
+    }
+    .about .part-txt .title p {
+        font-size: 14px;
+    }
+    .about .part-txt .title h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .about .part-txt .single-box {
+        padding: 30px 40px;
+    }
+    /* spread section */
+    .spread {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .spread .single-box .part-icon {
+        width: 80px;
+    }
+    .spread .single-box .part-txt h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    /* self protect section */
+    .self-protect .part-txt .single-box {
+        padding: 30px 20px;
+    }
+    .self-protect .part-txt .single-box .txt h3 {
+        font-size: 20px;
+    }
+    .self-protect .part-img {
+        display: block;
+        height: 250px;
+        overflow: hidden;
+        margin-top: 30px;
+        border: 10px solid transparent;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1), -3px -3px 5px rgba(255, 255, 255, 0.95);
+    }
+    .self-protect .part-img img {
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0px 0px;
+    }
+    /* symptoms section */
+    .symptoms .symptom-box .single-symptom .part-txt h3 {
+        font-size: 22px;
+    }
+    .symptoms .symptom-box .owl-nav {
+        display: none;
+    }
+    /* hand wash section */
+    .hand-wash .boxes {
+        padding: 30px 20px;
+        padding-bottom: 0;
+    }
+    .hand-wash .boxes .single-box {
+        padding: 30px 15px;
+    }
+    .hand-wash .boxes .single-box .part-txt h3 {
+        font-size: 18px;
+    }
+    /* map section */
+    .map-area .map iframe {
+        height: 250px;
+    }
+    /* team section */
+    .team {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .team .single-box {
+        margin: 0 auto 30px auto;
+    }
+    .team .single-box .part-txt h3 {
+        font-size: 22px;
+    }
+    .team .single-box .part-txt p {
+        font-size: 14px;
+    }
+    /* faq section */
+    .faq .form {
+        width: 350px;
+        margin: 0 auto 50px auto;
+    }
+    .faq .form h3 {
+        font-size: 22px;
+    }
+    /* blog section */
+    .blog {
+        padding-bottom: 90px;
+    }
+    .blog .single-box {
+        margin: 0 auto 30px auto;
+    }
+    .blog .single-box .part-txt h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    /* footer section */
+    .footer .main-footer .footer-txt {
+        margin-bottom: 50px;
+    }
+    .footer .main-footer .footer-txt .logo {
+        width: 90px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .quick-links {
+        margin-bottom: 40px;
+    }
+    .footer .main-footer .quick-links h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .quick-links ul li {
+        padding-bottom: 10px;
+    }
+    .footer .main-footer .useful-links h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .useful-links ul li {
+        padding-bottom: 10px;
+    }
+    .footer .main-footer .contact h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .contact a {
+        display: block;
+    }
+}
+
+/*as col-sm*/
+/*large mobile device*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* global style */
+    .heading {
+        margin-bottom: 50px;
+    }
+    .heading p {
+        font-size: 14px;
+    }
+    .heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    /* header section */
+    .header .logo img {
+        width: 100px;
+    }
+    .header button {
+        float: right;
+        outline: none;
+        padding: 20px 0;
+    }
+    .header .navbar .navbar-nav .nav-item {
+        padding: 5px 10px;
+    }
+    .header .navbar .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
+    .header .navbar .def-btn {
+        margin: 20px 10px;
+    }
+    /* banner section */
+    .banner {
+        padding-top: 62px;
+    }
+    .banner .banner-txt {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .banner .banner-txt h4 {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .banner .banner-txt h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner .banner-txt p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner .part-img {
+        width: 320px;
+        margin: 0 auto 100px auto;
+    }
+    .banner .part-img img {
+        width: 100%;
+    }
+    /* dashboard section */
+    .dashboard .box {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .dashboard .box .single-box {
+        margin-bottom: 40px;
+    }
+    .dashboard .box .single-box h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    /* about section */
+    .about .part-img {
+        width: 320px;
+        margin: 0 auto 30px auto;
+    }
+    .about .part-img img {
+        width: 100%;
+    }
+    .about .part-txt .title p {
+        font-size: 14px;
+    }
+    .about .part-txt .title h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    /* spread section */
+    .spread {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .spread .single-box {
+        width: 290px;
+        margin: 0 auto 30px auto;
+    }
+    .spread .single-box .part-icon {
+        width: 80px;
+    }
+    .spread .single-box .part-txt h3 {
+        font-size: 22px;
+    }
+    /* self protect section */
+    .self-protect .part-txt .single-box {
+        padding: 30px 20px;
+    }
+    .self-protect .part-txt .single-box .txt h3 {
+        font-size: 20px;
+    }
+    .self-protect .part-img {
+        display: block;
+        height: 250px;
+        overflow: hidden;
+        margin-top: 30px;
+        border: 10px solid transparent;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1), -3px -3px 5px rgba(255, 255, 255, 0.95);
+    }
+    .self-protect .part-img img {
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0px 0px;
+    }
+    /* symptoms section */
+    .symptoms .symptom-box .single-symptom .part-txt h3 {
+        font-size: 22px;
+    }
+    .symptoms .symptom-box .owl-nav {
+        display: none;
+    }
+    /* hand wash section */
+    .hand-wash .boxes {
+        padding: 30px 20px;
+        padding-bottom: 0;
+    }
+    .hand-wash .boxes .single-box {
+        padding: 30px 15px;
+    }
+    .hand-wash .boxes .single-box .part-txt h3 {
+        font-size: 18px;
+    }
+    /* map section */
+    .map-area .map iframe {
+        height: 250px;
+    }
+    /* team section */
+    .team {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .team .single-box {
+        margin: 0 auto 30px auto;
+    }
+    .team .single-box .part-txt h3 {
+        font-size: 22px;
+    }
+    .team .single-box .part-txt p {
+        font-size: 14px;
+    }
+    /* faq section */
+    .faq .form {
+        width: 350px;
+        margin: 0 auto 50px auto;
+    }
+    .faq .form h3 {
+        font-size: 22px;
+    }
+    .faq .accordion .card .card-header h2 {
+        padding: 0 15px;
+        height: 50px;
+        line-height: 50px;
+        overflow: hidden;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .faq .accordion .card .card-body {
+        padding: 10px;
+    }
+    /* blog section */
+    .blog {
+        padding-bottom: 90px;
+    }
+    .blog .single-box {
+        width: 350px;
+        margin: 0 auto 30px auto;
+    }
+    .blog .single-box .part-txt h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    /* footer section */
+    .footer .main-footer .footer-txt {
+        margin-bottom: 50px;
+    }
+    .footer .main-footer .footer-txt .logo {
+        width: 90px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .quick-links {
+        margin-bottom: 40px;
+    }
+    .footer .main-footer .quick-links h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .quick-links ul li {
+        padding-bottom: 10px;
+    }
+    .footer .main-footer .useful-links {
+        margin-bottom: 40px;
+    }
+    .footer .main-footer .useful-links h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .useful-links ul li {
+        padding-bottom: 10px;
+    }
+    .footer .main-footer .contact h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .contact a {
+        display: block;
+    }
+}
+
+/*medium mobile device*/
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    /* global style */
+    .heading {
+        margin-bottom: 50px;
+    }
+    .heading p {
+        font-size: 14px;
+    }
+    .heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    /* header section */
+    .header .logo img {
+        width: 100px;
+    }
+    .header button {
+        float: right;
+        outline: none;
+        padding: 20px 0;
+    }
+    .header .navbar .navbar-nav .nav-item {
+        padding: 5px 10px;
+    }
+    .header .navbar .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
+    .header .navbar .def-btn {
+        margin: 20px 10px;
+    }
+    /* banner section */
+    .banner {
+        padding-top: 62px;
+    }
+    .banner .banner-txt {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .banner .banner-txt h4 {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .banner .banner-txt h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner .banner-txt p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner .part-img {
+        width: 320px;
+        margin: 0 auto 100px auto;
+    }
+    .banner .part-img img {
+        width: 100%;
+    }
+    /* dashboard section */
+    .dashboard .box {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .dashboard .box .single-box {
+        margin-bottom: 40px;
+    }
+    .dashboard .box .single-box h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    /* about section */
+    .about .part-img {
+        width: 320px;
+        margin: 0 auto 30px auto;
+    }
+    .about .part-img img {
+        width: 100%;
+    }
+    .about .part-txt .title p {
+        font-size: 14px;
+    }
+    .about .part-txt .title h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    /* spread section */
+    .spread {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .spread .single-box {
+        width: 290px;
+        margin: 0 auto 30px auto;
+    }
+    .spread .single-box .part-icon {
+        width: 80px;
+    }
+    .spread .single-box .part-txt h3 {
+        font-size: 22px;
+    }
+    /* self protect section */
+    .self-protect .part-txt .single-box {
+        width: 290px;
+        margin: 15px auto;
+    }
+    .self-protect .part-txt .single-box .txt h3 {
+        font-size: 22px;
+    }
+    .self-protect .part-img {
+        display: block;
+        height: 250px;
+        overflow: hidden;
+        margin-top: 30px;
+        border: 10px solid transparent;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1), -3px -3px 5px rgba(255, 255, 255, 0.95);
+    }
+    .self-protect .part-img img {
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0px 0px;
+    }
+    /* symptoms section */
+    .symptoms .symptom-box .single-symptom .part-txt h3 {
+        font-size: 22px;
+    }
+    .symptoms .symptom-box .owl-nav {
+        display: none;
+    }
+    /* hand wash section */
+    .hand-wash .boxes {
+        padding: 30px 20px;
+        padding-bottom: 0;
+    }
+    .hand-wash .boxes .single-box {
+        padding: 30px 15px;
+    }
+    .hand-wash .boxes .single-box .part-txt h3 {
+        font-size: 18px;
+    }
+    /* map section */
+    .map-area .map iframe {
+        height: 250px;
+    }
+    /* team section */
+    .team {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .team .single-box {
+        width: 260px;
+        margin: 0 auto 30px auto;
+    }
+    .team .single-box .part-txt h3 {
+        font-size: 22px;
+    }
+    .team .single-box .part-txt p {
+        font-size: 14px;
+    }
+    /* faq section */
+    .faq .form {
+        padding: 30px 15px;
+        margin-bottom: 50px;
+    }
+    .faq .form h3 {
+        font-size: 22px;
+    }
+    .faq .accordion .card .card-header h2 {
+        padding: 0 15px;
+        height: 50px;
+        line-height: 50px;
+        overflow: hidden;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .faq .accordion .card .card-body {
+        padding: 10px;
+    }
+    /* blog section */
+    .blog {
+        padding-bottom: 90px;
+    }
+    .blog .single-box {
+        width: 290px;
+        margin: 0 auto 30px auto;
+    }
+    .blog .single-box .part-txt h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    /* footer section */
+    .footer .main-footer .footer-txt {
+        margin-bottom: 50px;
+    }
+    .footer .main-footer .footer-txt .logo {
+        width: 90px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .quick-links {
+        margin-bottom: 40px;
+    }
+    .footer .main-footer .quick-links h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .quick-links ul li {
+        padding-bottom: 10px;
+    }
+    .footer .main-footer .useful-links {
+        margin-bottom: 40px;
+    }
+    .footer .main-footer .useful-links h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .useful-links ul li {
+        padding-bottom: 10px;
+    }
+    .footer .main-footer .contact h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .contact a {
+        display: block;
+    }
+}
+
+/*small mobile device*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    /* global style */
+    .heading {
+        margin-bottom: 50px;
+    }
+    .heading p {
+        font-size: 14px;
+    }
+    .heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    /* header section */
+    .header .logo img {
+        width: 100px;
+    }
+    .header button {
+        float: right;
+        outline: none;
+        padding: 20px 0;
+    }
+    .header .navbar .navbar-nav .nav-item {
+        padding: 5px 10px;
+    }
+    .header .navbar .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
+    .header .navbar .def-btn {
+        margin: 20px 10px;
+    }
+    /* banner section */
+    .banner {
+        padding-top: 62px;
+    }
+    .banner .banner-txt {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .banner .banner-txt h4 {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .banner .banner-txt h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner .banner-txt p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner .banner-txt .btn-box a:last-child {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .banner .part-img img {
+        width: 290px;
+        margin: 0 auto 100px auto;
+    }
+    /* dashboard section */
+    .dashboard .box {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .dashboard .box .single-box {
+        margin-bottom: 40px;
+    }
+    .dashboard .box .single-box h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    /* about section */
+    .about .part-img img {
+        width: 290px;
+        margin: 0 auto 30px auto;
+    }
+    .about .part-txt .title p {
+        font-size: 14px;
+    }
+    .about .part-txt .title h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .about .part-txt .single-box {
+        width: 260px;
+        margin: 30px auto 0 auto;
+    }
+    /* spread section */
+    .spread {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .spread .single-box {
+        width: 290px;
+        margin: 0 auto 30px auto;
+    }
+    .spread .single-box .part-icon {
+        width: 80px;
+    }
+    .spread .single-box .part-txt h3 {
+        font-size: 22px;
+    }
+    /* self protect section */
+    .self-protect .part-txt .single-box {
+        width: 290px;
+        margin: 15px auto;
+    }
+    .self-protect .part-txt .single-box .txt h3 {
+        font-size: 22px;
+    }
+    .self-protect .part-img img {
+        width: 290px;
+        margin: 30px auto 0 auto;
+    }
+    /* symptoms section */
+    .symptoms .symptom-box .single-symptom .part-txt h3 {
+        font-size: 22px;
+    }
+    .symptoms .symptom-box .owl-nav {
+        display: none;
+    }
+    /* hand wash section */
+    .hand-wash .boxes {
+        padding: 30px 20px;
+        padding-bottom: 0;
+        width: 290px;
+        margin: 0 auto;
+    }
+    /* map section */
+    .map-area .map iframe {
+        height: 250px;
+    }
+    /* team section */
+    .team {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .team .single-box {
+        width: 260px;
+        margin: 0 auto 30px auto;
+    }
+    .team .single-box .part-txt h3 {
+        font-size: 22px;
+    }
+    .team .single-box .part-txt p {
+        font-size: 14px;
+    }
+    /* faq section */
+    .faq .form {
+        padding: 30px 15px;
+        margin-bottom: 50px;
+    }
+    .faq .form h3 {
+        font-size: 22px;
+    }
+    .faq .accordion .card .card-header h2 {
+        padding: 0 15px;
+        height: 50px;
+        line-height: 50px;
+        overflow: hidden;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .faq .accordion .card .card-body {
+        padding: 10px;
+    }
+    /* blog section */
+    .blog {
+        padding-bottom: 90px;
+    }
+    .blog .single-box {
+        width: 290px;
+        margin: 0 auto 30px auto;
+    }
+    .blog .single-box .part-txt h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    /* footer section */
+    .footer .main-footer .footer-txt {
+        margin-bottom: 50px;
+    }
+    .footer .main-footer .footer-txt .logo {
+        width: 90px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .quick-links {
+        margin-bottom: 40px;
+    }
+    .footer .main-footer .quick-links h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .quick-links ul li {
+        padding-bottom: 10px;
+    }
+    .footer .main-footer .useful-links {
+        margin-bottom: 40px;
+    }
+    .footer .main-footer .useful-links h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footer .main-footer .useful-links ul li {
+        padding-bottom: 10px;
+    }
+    .footer .main-footer .contact h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+}

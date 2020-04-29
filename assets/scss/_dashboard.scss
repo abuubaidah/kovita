@@ -1,0 +1,44 @@
+.dashboard {
+    background: $sky;
+    position: relative;
+    z-index: 3;
+    .box {
+        padding: 50px 0;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px rgba($black, 0.1), -3px -3px 5px rgba($white, 0.95);
+        overflow: hidden;
+        .single-box {
+            text-align: center;
+            position: relative;
+            &:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: -15px;
+                width: 1px;
+                height: 100%;
+                background: rgba($black, 0.3);
+            }
+            &:nth-child(4) {
+                &:after {
+                    display: none;
+                }
+            }
+            h4 {
+                font-size: 35px;
+                line-height: 100%;
+                font-weight: 500;
+                color: $color-2;
+                margin-top: -5px;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 100%;
+                text-transform: capitalize;
+                color: $color-1;
+                margin-bottom: -3px;
+            }
+        }
+    }
+}

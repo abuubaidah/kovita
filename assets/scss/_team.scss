@@ -1,0 +1,50 @@
+.team {
+    padding: 60px 0;
+    background: $sky;
+    .single-box {
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 5px rgba($black, 0.1), -3px -3px 5px rgba($white, 0.95);
+        .part-img {
+            border: 1px solid $white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        .part-txt {
+            text-align: center;
+            h3 {
+                font-size: 25px;
+                line-height: 100%;
+                font-weight: 600;
+                text-transform: capitalize;
+                color: $color-2;
+                margin-top: -5px;
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 100%;
+                text-transform: capitalize;
+                color: $color-1;
+                margin-bottom: 20px;
+            }
+            .social {
+                .def-btn {
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    padding: 0;
+                    font-size: 14px;
+                    margin-left: 5px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}

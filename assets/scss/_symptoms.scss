@@ -1,0 +1,85 @@
+.symptoms {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background: $sky;
+    .symptom-box {
+        .owl-stage-outer {
+            padding: 10px;
+            margin: -10px;
+        }
+        .single-symptom {
+            padding: 30px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 5px rgba($black, 0.1), -3px -3px 5px rgba($white, 0.95);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .part-icon {
+                width: 90px;
+                padding: 20px;
+                border-radius: 50%;
+                box-shadow: inset 3px 3px 5px rgba($black, 0.1), inset -3px -3px 5px rgba($white, 0.95);
+                margin-bottom: 30px;
+                img {
+                    width: 100%;
+                }
+            }
+            .part-txt {
+                text-align: center;
+                h3 {
+                    font-size: 25px;
+                    line-height: 100%;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    color: $color-2;
+                    margin-top: -4px;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: $color-1;
+                    margin-bottom: -8px;
+                }
+            }
+        }
+        .owl-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            visibility: hidden;
+            .owl-prev {
+                text-align: center;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 50%;
+                box-shadow: 3px 3px 5px rgba($black, 0.1), -3px -3px 5px rgba($white, 0.95);
+                margin-left: -60px;
+                visibility: visible;
+                outline: none;
+                font-size: 20px;
+                color: $color-2;
+            }
+            .owl-next {
+                text-align: center;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 50%;
+                box-shadow: 3px 3px 5px rgba($black, 0.1), -3px -3px 5px rgba($white, 0.95);
+                margin-right: -60px;
+                visibility: visible;
+                outline: none;
+                font-size: 20px;
+                color: $color-2;
+            }
+        }
+    }
+}

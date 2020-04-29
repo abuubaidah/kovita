@@ -1,0 +1,67 @@
+.blog {
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background: $sky;
+    .single-box {
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 5px rgba($black, 0.1), -3px -3px 5px rgba($white, 0.95);
+        .part-img {
+            overflow: hidden;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            img {
+                width: 100%;
+            }
+        }
+        .part-txt {
+            position: relative;
+            padding: 20px 15px;
+            border-radius: 10px;
+            box-shadow: inset 3px 3px 5px rgba($black, 0.1), inset -3px -3px 5px rgba($white, 0.95);
+            overflow: hidden;
+            p {
+                font-size: 15px;
+                line-height: 100%;
+                font-weight: 500;
+                text-transform: capitalize;
+                color: $color-1;
+                padding-left: 40px;
+                margin-top: -3px;
+                margin-bottom: 15px;
+                position: relative;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    width: 35px;
+                    border-top: 1.5px solid rgba($black, 0.1);
+                    border-bottom: 1.5px solid rgba($white, 0.90);
+                }
+            }
+            h3 {
+                display: flex;
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: $color-2;
+                margin-top: -4px;
+                margin-bottom: -8px;
+            }
+            a {
+                position: absolute;
+                bottom: -10px;
+                right: -10px;
+                text-align: center;
+                font-size: 15px;
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                padding: 0;
+            }
+        }
+    }
+}
